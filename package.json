@@ -1,0 +1,17 @@
+{
+  "name": "rebuild-twigjs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "twig": "^1.15.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
